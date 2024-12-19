@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.demo1.AdminController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20" />
+    </padding>
+
+    <!-- ListView to display restaurants -->
+    <ListView fx:id="restaurantListView" prefHeight="300.0" prefWidth="600.0" />
+
+    <!-- Input fields for restaurant details -->
+    <Label text="Restaurant Name:" />
+    <TextField fx:id="restaurantNameTextField" />
+
+    <Label text="Location:" />
+    <TextField fx:id="locationTextField" /> <!-- This is now for location (instead of City + Governorate) -->
+
+    <Label text="Category:" />
+    <TextField fx:id="categoryTextField" />
+
+    <!-- Buttons for Add, Remove, and Update -->
+    <Button text="Add Restaurant" onAction="#addRestaurant" />
+    <Button text="Remove Selected Restaurant" onAction="#removeRestaurant" />
+    <Button text="Update Restaurant" onAction="#updateRestaurant" />
+</VBox>

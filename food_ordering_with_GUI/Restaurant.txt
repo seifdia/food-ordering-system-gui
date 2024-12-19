@@ -1,0 +1,10 @@
+Kansas,Cairo Nasr City,Fried Chicken
+Heart Attack,Giza Dokki,Fried Chicken
+Pronto Pizza,Cairo Heliopolis,Pizza
+Pizza Station,Giza Mohandessin,Pizza
+Skyroof,Alexandria Corniche,Sea Food
+Mandarine Koueider Cairo,Zamalek,Dessert
+Cilantro Café,Cairo New Cairo,Café
+Wild Burger,Cairo Nasr City,Burgers
+Latino Café & Restaurant,Alexandria Corniche,Café
+Ovio,Cairo New Cairo,Dessert

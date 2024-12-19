@@ -1,0 +1,66 @@
+.root{
+-fx-background-color:  rgb(49, 46, 46);
+
+}
+.label{
+-fx-text-fill:"white";
+-fx-font-size:20;
+-fx-font-weight:700
+}
+.label-white{
+-fx-text-fill:rgb(49, 109, 49);
+-fx-scale-x:1;
+-fx-font-size:30;
+-fx-font-weight:700;
+}
+.textField{
+-fx-text-background:"grey";
+-fx-text-fill:"white";
+}
+.textPassword{
+-fx-text-background:"grey";
+-fx-text-fill:"white";
+}
+.button{
+-fx-background-color:rgb(49, 109, 49);
+-fx-text-fill:"white";
+-fx-background-radius:5;
+}
+.button-Background{
+-fx-background-color:rgb(49, 109, 49);
+-fx-text-fill:"white";
+-fx-background-radius:5;
+-fx-padding:5;
+-fx-font-size:18;
+-fx-font-weight:700;
+}
+.background {
+    -fx-background-image: url("restaurant2.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+
+}
+.background_emptyImage{
+
+    -fx-background-image: url("grey.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+
+}
+
+.list-view {
+    -fx-background-color:rgb(49, 109, 49);
+    -fx-border-color: rgb(56, 51, 51) ;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+//style for list_view items
+.list-cell {
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-font-weight:700;
+    -fx-padding: 2px;
+}

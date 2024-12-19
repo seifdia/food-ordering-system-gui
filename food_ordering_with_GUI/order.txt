@@ -1,0 +1,76 @@
+Order ID: 1
+Order Details:
+Chicken Wrap with Fries - 160.0 EGP
+
+Total Price: 160.0 EGP
+--------------------------
+Order Created at: 2024-12-14T17:56:56.588262200
+==========================
+
+Order ID: 2
+Order Details:
+Chicken Wrap with Fries - 160.0 EGP
+Family Meal (20 pcs) - 450.0 EGP
+
+Total Price: 610.0 EGP
+--------------------------
+Order Created at: 2024-12-14T18:01:48.482276
+==========================
+
+Order ID: 3
+Order Details:
+Family Meal (20 pcs) - 450.0 EGP
+
+Total Price: 450.0 EGP
+--------------------------
+Order Created at: 2024-12-14T18:02:25.843082600
+==========================
+
+Order ID: 4
+Order Details:
+Shrimp Pasta - 250.0 EGP
+Grilled Calamari - 180.0 EGP
+
+Total Price: 430.0 EGP
+--------------------------
+Order Created at: 2024-12-14T18:04:04.447246700
+==========================
+
+Order ID: 5
+Order Details:
+Mixed Seafood Platter - 450.0 EGP
+
+Total Price: 450.0 EGP
+--------------------------
+Order Created at: 2024-12-15T05:38:38.760349200
+==========================
+
+Order ID: 6
+Order Details:
+Chicken Wrap Meal - 150.0 EGP
+Spicy Chicken Wings - 120.0 EGP
+Crispy Chicken Sandwich - 100.0 EGP
+
+Total Price: 370.0 EGP
+--------------------------
+Order Created at: 2024-12-15T20:23:56.568794800
+==========================
+
+Order ID: 7
+Order Details:
+Fried Chicken Bucket (12 pcs) - 280.0 EGP
+
+Total Price: 280.0 EGP
+--------------------------
+Order Created at: 2024-12-19T17:49:10.086018200
+==========================
+
+Order ID: 8
+Order Details:
+Chicken Wrap with Fries - 160.0 EGP
+
+Total Price: 160.0 EGP
+--------------------------
+Order Created at: 2024-12-19T18:14:19.920871800
+==========================
+

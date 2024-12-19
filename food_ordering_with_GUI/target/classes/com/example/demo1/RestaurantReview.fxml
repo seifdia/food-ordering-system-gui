@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<?import javafx.collections.FXCollections?>
+<?import java.lang.Integer?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo1.RestaurantReviewController"
+      spacing="15" alignment="CENTER">
+    <!-- Restaurant Info (Updated with fx:id for dynamic binding) -->
+    <Label fx:id="restaurantNameLabel" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+    <Label fx:id="restaurantAddressLabel" style="-fx-font-size: 14px;" />
+    <Label fx:id="restaurantCategoryLabel" style="-fx-font-size: 14px;" />
+
+    <!-- Reviewer Name Label and TextField -->
+    <Label text="Enter your name" style="-fx-font-size: 14px;" />
+    <TextField fx:id="reviewerNameField" promptText="Enter your name" style="-fx-pref-width: 200px;"/>
+
+    <!-- Rating ComboBox -->
+    <ComboBox fx:id="ratingComboBox" style="-fx-pref-width: 200px;">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <Integer fx:value="1" />
+                <Integer fx:value="2" />
+                <Integer fx:value="3" />
+                <Integer fx:value="4" />
+                <Integer fx:value="5" />
+            </FXCollections>
+        </items>
+    </ComboBox>
+
+    <!-- Comment TextArea -->
+    <TextArea fx:id="commentTextArea" promptText="Write your comment" style="-fx-pref-width: 250px; -fx-pref-height: 100px;"/>
+
+    <!-- Buttons for Add Review only -->
+    <HBox spacing="15" alignment="CENTER">
+        <Button text="Add Review" onAction="#handleAddReview" style="-fx-pref-width: 120px;" />
+    </HBox>
+
+    <!-- Display Reviews -->
+    <TextArea fx:id="reviewsDisplayArea" editable="false" wrapText="true" prefHeight="200" style="-fx-pref-width: 400px;" />
+</VBox>
